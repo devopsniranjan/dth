@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<config-name>def</config-name><!-- used to resolve dependency -->
+	<depends>zul</depends>
+	<version>
+		<version-class>hdfc.Version</version-class>
+		<version-uid>1.0</version-uid>
+	</version>
+
+	<listener>
+		<listener-class>hdfc.abcThemeWebAppInit</listener-class>
+	</listener>
+</config>
